@@ -1,0 +1,57 @@
+exit
+ls
+exit
+sudo apt install libssl1.0.0 libgstreamer1.0-0 gstreamer1.0-tools gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gstreamer1.0-libav libgstrtspserver-1.0-0 libjansson4=2.11-1
+apt install libssl1.0.0 libgstreamer1.0-0 gstreamer1.0-tools gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gstreamer1.0-libav libgstrtspserver-1.0-0 libjansson4=2.11-1
+apt-get install python-gi-dev
+export GST_LIBS="-lgstreamer-1.0 -lgobject-2.0 -lglib-2.0"
+export GST_CFLAGS="-pthread -I/usr/include/gstreamer-1.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include"
+git clone https://github.com/GStreamer/gst-python.git
+git checkout 1a8f48a                                             cd gst-python
+cd gst-python
+git checkout 1a8f48a
+./autogen.sh PYTHON=python3
+./configure PYTHON=python3
+sudo apt install -y git python-dev python3 python3-pip python3.6-dev python3.8-dev cmake g++ build-essential
+apt install -y git python-dev python3 python3-pip python3.6-dev python3.8-dev cmake g++ build-essential
+apt-get update
+apt install -y git python-dev python3 python3-pip python3.6-dev python3.8-dev cmake g++ build-essential
+./autogen.sh PYTHON=python3
+apt install automake
+./autogen.sh PYTHON=python3
+apt install libtoolize
+apt install  glibtoolize
+apt install libtoolize
+apt install glibtoolize
+./autogen.sh PYTHON=python3
+./autogen.sh PYTHON=python3 --nocheck
+./autogen.sh PYTHON=python3
+apt install libtool
+./autogen.sh PYTHON=python3
+libtoolize
+./autogen.sh PYTHON=python3
+./configure PYTHON=python3
+make
+make -j4
+apt-get install libgstreamer1.0-dev
+apt install libssl1.0.0 libgstreamer1.0-0 gstreamer1.0-tools
+apt install libssl1.0.0 libgstreamer1.0-0 gstreamer1.0-tools gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gstreamer1.0-libav libgstrtspserver-1.0-0 libjansson4=2.11-1
+make
+make install
+cd sources
+cd ..
+cd sources
+git clone https://github.com/NVIDIA-AI-IOT/deepstream_python_apps.git
+cd deepstream_python_apps/
+git checkout v1.1.1
+git submodule update --init
+cd bindings/
+mkdir build
+cd build/
+cmake ..  -DPYTHON_MAJOR_VERSION=3 -DPYTHON_MINOR_VERSION=6     -DPIP_PLATFORM=linux_aarch64 -DDS_PATH=/opt/nvidia/deepstream/deep
+stream-6.0/cd /opt/nvidia/deepstream
+cd /opt/nvidia/deepstream
+ls
+exit
+ls
+exit
